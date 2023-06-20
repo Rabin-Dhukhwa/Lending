@@ -11,7 +11,7 @@ import BurrowHistory from "./pages/burrow-history/BurrowHistory";
 
 function App() {
   return (
-    <div className="">
+    <div className="app">
       <Routes>
         {/* {public routers} */}
         <Route path="/" element={<Home />} />

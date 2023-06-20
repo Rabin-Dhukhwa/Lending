@@ -1,0 +1,18 @@
+:root {
+  /* --background: #a4d1fd; */
+  --background: white;
+  --secondary: #ff7f00;
+}
+
+.app {
+  background: var(--background);
+}
+
+.main {
+  min-height: 73vh;
+}
+.hero-main-img {
+  background: rgba(0, 0, 0, 0.425);
+  padding: 1rem;
+  border-radius: 10px;
+}

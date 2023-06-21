@@ -6,27 +6,23 @@ import { Link } from "react-router-dom";
 
 export const Header = () => {
   return (
-    <Navbar
-      bg="none"
-      expand="md "
-      className=" text-light p-3 text-center border"
-    >
+    <Navbar bg="none" expand="md " className="  p-3 text-center border ">
       <Container>
         <Navbar.Brand>
-          <Link to="/" className="nav-link ">
-            <i class="fa-solid fa-book fa-2xl"></i>
+          <Link to="/" className=" ">
+            <i className="fa-solid fa-book fa-2xl"></i>
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto gap-2 fs-5 ">
-            <Link to="/" className="nav-link" title="Home">
+          <Nav className="ms-auto gap-5 fs-5 ">
+            <Link to="/" className="" title="Home">
               <i className="fa-solid fa-house fa-lg"></i>
             </Link>
-            <Link to="/signin" className="nav-link">
+            <Link to="/signin" className="">
               Sign in
             </Link>
-            <Link to="/signup" className="nav-link">
+            <Link to="/signup" className="">
               Sign up
             </Link>
           </Nav>
